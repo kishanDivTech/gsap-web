@@ -16,12 +16,50 @@ body {
     background-color: #F7F7F7;
 }
 #nav{
-    /* height: 100px; */
     width: 100%;
-    background-color: burlywood;
     position: fixed;
-    z-index:10000;
-    padding: 1vw 1vw;
+    z-index:99;
+    padding: 25px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+#nav #nav-part2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:40px;
+}
+
+#links{
+    padding: 10px;
+}
+#nav #nav-part1{
+    height: 82px;
+    overflow: hidden;
+}
+#nav #nav-part1 svg{
+    display: block;
+}
+#icons{
+    padding: 10px;
+    border-radius: 50px;
+    background-color: #F7F7F7;
+}
+
+#nav #nav-part2  #links a{
+    text-transform: uppercase;
+    color:#333;
+    font-size: 14px;
+    font-weight: 500;
+    margin:0  20px;
+    text-decoration: none;
+}
+
+#nav-part2 #icons i{
+    font-size: 18px;
+    margin:0 20px
 }
 #cursor{
     height: 400px;
