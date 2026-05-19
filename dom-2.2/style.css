@@ -1,0 +1,13 @@
+.active{
+    background-color: red;
+    color: white;
+    /* border-radius: 50%; */
+    padding: 20px;
+    
+}
+
+
+.black{
+   background:black;
+   color:white;
+}
