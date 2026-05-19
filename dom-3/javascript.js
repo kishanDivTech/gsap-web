@@ -153,3 +153,55 @@
 //     count--;
 //     output.innerText = count
 // })
+
+
+// let box = document.getElementById("box")
+// console.log(box.children)
+
+// let box1 = document.getElementById("h1")
+// console.log(box1.parentNode)
+
+// let child = document.querySelector("h1")
+// console.log(child.parentNode)
+
+
+// let count = 0;
+// const text = document.getElementById("count")
+// let inc = document.getElementById("inc")
+// let dec = document.getElementById("dec")
+// let reset = document.getElementById("reset")
+
+// inc.addEventListener("click", function () {
+//     count++;
+//     text.innerText = count
+
+// })
+
+// dec.addEventListener("click", function () {
+//     count--;
+//     text.innerText = count
+// })
+
+// reset.addEventListener("click", function () {
+//     count = 0;
+//     text.innerText = count;
+// })
+
+
+// document.getElementById("dark").addEventListener("click", function () {
+//     document.body.classList.toggle("dark")
+// })
+
+
+// let password = document.getElementById("password")
+// let btn = document.getElementById("btn")
+
+// btn.addEventListener("click", function () {
+//     if (password.type === "password") {
+//         password.type = "text"
+//         btn.innerText = "Hide"
+//     } else {
+//         password.type = "password"
+//         btn.innerText = "Show"
+//     }
+// })
